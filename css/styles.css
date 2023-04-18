@@ -42,6 +42,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -91,11 +92,14 @@ body {
 .section-cl-hero {
   background-color: #2e2f42;
 }
+.btn-active:active {
+  color: #ffffff;
+}
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
-.btn-hero {
+.btn-all {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -148,3 +152,14 @@ body {
   | Footer
   |============================
 */
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
