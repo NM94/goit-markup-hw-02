@@ -92,12 +92,14 @@ body {
 .section-cl-hero {
   background-color: #2e2f42;
 }
-.btn-active:active {
+.btn-active:hover,
+.btn-active: {
   color: #ffffff;
 }
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
+  color: #ffffff;
 }
 .btn-all {
   font-family: inherit;
