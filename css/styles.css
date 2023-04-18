@@ -95,6 +95,7 @@ body {
 .btn-active: {
   color: #ffffff;
 }
+
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
