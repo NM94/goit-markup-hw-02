@@ -112,6 +112,19 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
 }
+.btn-portfolio {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
 .title-hero {
   font-weight: 700;
   font-size: 56px;
