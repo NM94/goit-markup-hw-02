@@ -1,3 +1,7 @@
+!:root {
+  --main-txt-cl: #434455;
+  --secondary-txt-cl: ;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
