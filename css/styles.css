@@ -1,4 +1,4 @@
-!:root {
+:root {
   /* color */
   --logo-color: #404bbf;
   --main-txt-cl: #2e2f42;
@@ -90,10 +90,6 @@ body {
 }
 .section-cl-hero {
   background-color: #2e2f42;
-}
-.btn-active:hover,
-.btn-active: {
-  color: #ffffff;
 }
 
 .btn:hover,
