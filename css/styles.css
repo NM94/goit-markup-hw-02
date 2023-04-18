@@ -1,16 +1,8 @@
-!:root {
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
-/**
-  |============================
-  | Base style
-  |============================
-*/
-.btn
 
 /**
   |============================
@@ -19,22 +11,27 @@ body {
 */
 
 .list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   list-style: none;
-
-  text-decoration: none;
-
-  color: #2e2f42;
 }
-.header-nav-link,
-.header-contact {
-  font-weight: 500;
-  font-size: 16px;
+
+.link {
+  text-decoration: none;
+}
+.hover:hover,
+.focus:focus {
+  color: #404bbf;
+}
+.header-addres {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: inherit;
+}
+
+.header-nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -45,11 +42,9 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: #2e2f42;
 }
-
-.link {
+.icon {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -58,9 +53,9 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
   color: #4d5ae5;
 }
+
 /**
   |============================
   | Main
