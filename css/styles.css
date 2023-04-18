@@ -1,6 +1,8 @@
 !:root {
-  --main-txt-cl: #434455;
-  --secondary-txt-cl: ;
+  /* color */
+  --logo-color: #404bbf;
+  --main-txt-cl: #2e2f42;
+  --secondary-txt-cl: #434455;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -85,13 +87,34 @@ body {
 
   color: #2e2f42;
 }
+.section {
+  background-color: #2e2f42;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+.btn-hero {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
 .title-hero {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 
-  color: #2e2f42;
+  color: #ffffff;
 }
 .body-txt {
   font-size: 16px;
