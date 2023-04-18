@@ -24,6 +24,7 @@ body {
 .header-addres {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
   color: inherit;
 }
 
