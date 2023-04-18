@@ -75,6 +75,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
 
   color: #2e2f42;
@@ -87,7 +88,7 @@ body {
 
   color: #2e2f42;
 }
-.section {
+.section-cl-hero {
   background-color: #2e2f42;
 }
 .btn:hover,
@@ -114,6 +115,12 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 
+  color: #ffffff;
+}
+.section-cl-four {
+  background-color: #f4f4fd;
+}
+.list-background {
   color: #ffffff;
 }
 .body-txt {
