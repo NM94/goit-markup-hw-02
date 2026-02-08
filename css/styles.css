@@ -1,8 +1,8 @@
 :root {
     /* color */
     --iris-color: #4d5ae5;
-    --main-cl: #2e2f42;
-    --secondary-cl: #434455;
+    --secondary-cl: #2e2f42;
+    --main-cl: #434455;
     --main-hover-cl: #404bbf;
     --white-cl: #ffffff;
     --cloud-cl: #f4f4fd;
@@ -22,7 +22,6 @@ ol {
 }
 
 a {
-    font-style: normal;
     text-decoration: none;
     color: inherit;
 }
@@ -56,13 +55,12 @@ button {
 }
 
 .main-logo-span {
-color: var(--main-cl);
+color: var(--secondary-cl);
 }
 
 .small-font {
         line-height: 1.50;
         letter-spacing: 0.02em;
-        color: var(--secondary-cl);
 }
 
 .title-bold {
@@ -72,7 +70,7 @@ color: var(--main-cl);
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        color: var(--main-cl);
+        color: var(--secondary-cl);
 }
 
 .title-medium {
@@ -80,7 +78,7 @@ color: var(--main-cl);
         font-size: 20px;
         line-height: 1.20;
         letter-spacing: 0.02em;
-        color: var(--main-cl);
+        color: var(--secondary-cl);
 }
 
 /* ===================== HEADER STYLES ===================== */
@@ -89,11 +87,16 @@ color: var(--main-cl);
         font-weight: 500;
         line-height: 1.50;
         letter-spacing: 0.02em;
+        color: var(--secondary-cl)
 }
 
 .menu-link:hover,
 .menu-link:focus {
 color: var(--main-hover-cl);
+}
+
+.page-address {
+    font-style: normal;
 }
 
 .address-menu-link:hover,
@@ -104,7 +107,7 @@ color: var(--main-hover-cl);
 /* ===================== HERO STYLES ===================== */
 
 .page-hero {
-    background-color: var(--main-cl);
+    background-color: var(--secondary-cl);
 }
 
 .hero-title {
@@ -135,6 +138,9 @@ color: var(--main-hover-cl);
 .page-team{
 background-color: var(--cloud-cl);
 }
+.team-item {
+background-color: var(--white-cl);
+}
 
 .team-second-title {
     text-align: center;
@@ -149,7 +155,7 @@ background-color: var(--cloud-cl);
 /* ===================== FOOTER STYLES ===================== */
 
 .page-footer {
-    background-color: var(--main-cl);
+    background-color: var(--secondary-cl);
 }
 
 .footer-txt {
