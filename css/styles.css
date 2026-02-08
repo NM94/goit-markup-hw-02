@@ -1,11 +1,11 @@
 :root {
     /* color */
-    --iris-color: rgb(77 90 229);
-    --main-cl: rgb(46 47 66);
-    --secondary-cl: rgb(67 68 85);
-    --main-hover-cl: rgb(64 75 191);
-    --white-cl: rgb(255 255 255);
-    --cloud-cl: rgb(244 244 253);
+    --iris-color: #4d5ae5;
+    --main-cl: #2e2f42;
+    --secondary-cl: #434455;
+    --main-hover-cl: #404bbf;
+    --white-cl: #ffffff;
+    --cloud-cl: #f4f4fd;
     
 }
 
@@ -22,6 +22,7 @@ ol {
 }
 
 a {
+    font-style: normal;
     text-decoration: none;
     color: inherit;
 }
@@ -51,10 +52,11 @@ button {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: var(--iris-color);
 }
 
 .main-logo-span {
-color: var(--iris-color);
+color: var(--main-cl);
 }
 
 .small-font {
@@ -69,6 +71,7 @@ color: var(--iris-color);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: var(--main-cl);
 }
 
@@ -107,6 +110,7 @@ color: var(--main-hover-cl);
 .hero-title {
         font-size: 56px;
         line-height: 1.07;
+        text-transform: none;
         color: var(--white-cl);
 }
 
