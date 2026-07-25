@@ -1,0 +1,9 @@
+/* ===================== FOOTER STYLES ===================== */
+
+.page-footer {
+    background-color: var(--secondary-cl);
+}
+
+.footer-txt {
+    color: var(--cloud-cl);
+}

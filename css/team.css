@@ -1,0 +1,17 @@
+/* ===================== TEAM STYLES ===================== */
+
+.page-team {
+    background-color: var(--cloud-cl);
+}
+
+.team-item {
+    background-color: var(--white-cl);
+}
+
+.team-second-title {
+    text-align: center;
+}
+
+.team-txt {
+    text-align: center;
+}

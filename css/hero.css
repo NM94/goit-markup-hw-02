@@ -1,0 +1,26 @@
+/* ===================== HERO STYLES ===================== */
+
+.page-hero {
+    background-color: var(--secondary-cl);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-transform: none;
+    color: var(--white-cl);
+}
+
+.hero-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: var(--white-cl);
+    background-color: var(--iris-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--main-hover-cl);
+}

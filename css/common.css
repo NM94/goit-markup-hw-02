@@ -1,0 +1,79 @@
+:root {
+    /* color */
+    --iris-color: #4d5ae5;
+    --secondary-cl: #2e2f42;
+    --main-cl: #434455;
+    --main-hover-cl: #404bbf;
+    --white-cl: #ffffff;
+    --cloud-cl: #f4f4fd;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--main-cl);
+    background-color: var(--white-cl);
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+
+.main-logo-span {
+    color: var(--secondary-cl);
+}
+
+.small-font {
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
+
+.title-bold {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-cl);
+}
+
+.title-medium {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    color: var(--secondary-cl);
+}
+
+
+
+
+
+
+
+
+
+
+

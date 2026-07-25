@@ -1,0 +1,22 @@
+/* ===================== HEADER STYLES ===================== */
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--secondary-cl)
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--main-hover-cl);
+}
+
+.page-address {
+    font-style: normal;
+}
+
+.address-menu-link:hover,
+.address-menu-link:focus {
+    color: var(--main-hover-cl);
+}
